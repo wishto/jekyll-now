@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 14px/1.4 monospace;
   color: $darkGray;
 }
 
@@ -46,8 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  font-weight: normal;
   a {
     color: inherit;
+    padding: 0;
+    margin: 0;
+    font-weight: 10;
   }
 }
 
@@ -75,6 +79,7 @@ a {
   &:hover, &:active {
     color: $blue;
   }
+  font-weight: normal;
 }
 
 ul, ol {
@@ -104,6 +109,16 @@ em, i {
 
 strong, b {
   font-weight: bold;
+}
+
+.invisilink, .invisilink:hover, .invisilink:visited, .invisilink:active {
+  color: $darkGray;
+}
+
+small {
+  font-size: 0.5em;
+  font-style: italic;
+  color: #6a636d;
 }
 
 img {
@@ -151,7 +166,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .masthead {
@@ -161,6 +176,11 @@ img {
   @include mobile {
     text-align: center;
   }
+}
+
+.postTitle {
+  text-align: center;
+  padding: 0;
 }
 
 .site-avatar {
@@ -242,13 +262,23 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 0.5em;
   border-bottom: 1px solid $lightGray;
 }
 
+.read-more {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   border-bottom: none;
+}
+
+.tags {
+  color: $blue;
 }
 
 .post {
@@ -266,7 +296,7 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 15px;
   }
 }
@@ -287,3 +317,21 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+.botnav {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.botnav a {
+  display: block;
+  float: left;
+  margin: 1em 0;
+}
+
+.botnav .next {
+  float:right;
+}

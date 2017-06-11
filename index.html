@@ -6,13 +6,19 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<h1 class="postTitle"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} <small>{{ post.date | date: "%e %B, %Y %R" }}</small></a>
+      		{% for tag in post.tags %}
+  			<small class="tags"><a href="/tag/#{{tag}}">#{{tag}}</a></small>
+  			{% endfor %}
+  		</h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+      	<a href="{{ site.baseurl }}{{ post.url }}" class="invisilink">
+        	{{ post.excerpt }}
+        </a>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&darr; Read More &darr;</a>
     </article>
   {% endfor %}
 </div>

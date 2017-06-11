@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-Some information about you!
+You've reached toby.world. The world of toby!
 
 ### More Information
 
