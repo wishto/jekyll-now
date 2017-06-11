@@ -6,10 +6,6 @@ permalink: /about/
 
 You've reached toby.world. The world of toby!
 
-### More Information
+This is where the Toby's ramblings are located.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+You should read the #news posts instead of this
