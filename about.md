@@ -4,10 +4,6 @@ title: about
 permalink: /about/
 ---
 
-You've reached toby.world. The world of toby!
+Welcome to my website, I am Toby Wishart an aspiring game developer. I will be posting my various projects here.
 
-This is where the Toby's ramblings are located.
-
-You should read the #news posts instead of this
-
-Comments? Email me, me@toby.world I might not respond though.
+Contact me: me@toby.world
