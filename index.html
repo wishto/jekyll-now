@@ -2,23 +2,68 @@
 layout: default
 ---
 
-<div class="posts">
+<header class="masthead clearfix">
+<h1>.games/</h1>
+<div class="row">
   {% for post in site.posts %}
-    <article class="post">
-
-		<h1 class="postTitle"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} <small>{{ post.date | date: "%e %B, %Y %R" }}</small></a>
-      		{% for tag in post.tags %}
-  			<small class="tags"><a href="/tag/#{{tag}}">#{{tag}}</a></small>
-  			{% endfor %}
-  		</h1>
-
-      <div class="entry">
-      	<a href="{{ site.baseurl }}{{ post.url }}" class="invisilink">
-        	{{ post.excerpt }}
-        </a>
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&darr; Read More &darr;</a>
-    </article>
-  {% endfor %}
+					{% if post.tags contains "game" %}
+                    <div class="col-4">
+						<h3 class="postTitle" style="display:block;height:65px;">
+							<a href="{{ post.url }}" class="postTitle">
+								{{ post.title }}
+							</a>
+						</h3>
+                        <p class="centered">
+                            <a href="{{ post.url }}" class="postTitle">
+                                <img src="../{{ post.image }}" width="300">
+                            </a>
+                        </p>
+                    </div>
+				{% endif %}
+{% endfor %}
 </div>
+</header>
+
+<header class="masthead clearfix">
+<h1>.tools/</h1>
+<div class="row">
+  {% for post in site.posts %}
+					{% if post.tags contains "tool" %}
+                    <div class="col-4">
+						<h3 class="postTitle">
+							<a href="{{ post.url }}" class="postTitle">
+								{{ post.title }}
+							</a>
+						</h3>
+                        <p class="centered">
+                            <a href="{{ post.url }}" class="postTitle">
+                                <img src="../{{ post.image }}" width="300">
+                            </a>
+                        </p>
+                    </div>
+				{% endif %}
+{% endfor %}
+</div>
+</header>
+    
+<header class="masthead clearfix">
+<h1>.mods/</h1>
+<div class="row">
+  {% for post in site.posts %}
+					{% if post.tags contains "mod" %}
+                    <div class="col-4">
+						<h3 class="postTitle">
+							<a href="{{ post.url }}" class="postTitle">
+								{{ post.title }}
+							</a>
+						</h3>
+                        <p class="centered">
+                            <a href="{{ post.url }}" class="postTitle">
+                                <img src="../{{ post.image }}" width="300">
+                            </a>
+                        </p>
+                    </div>
+				{% endif %}
+{% endfor %}
+</div>
+</header>
