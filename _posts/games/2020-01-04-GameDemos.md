@@ -14,4 +14,4 @@ The demos are as follows:
 * Animation Showcase: A simple 2D platformer showcasing character animation.
 
 Gameplay:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/h1kzxdgPsYE" frameborder="0" allowfullscreen></iframe>
+{% youtube h1kzxdgPsYE%}

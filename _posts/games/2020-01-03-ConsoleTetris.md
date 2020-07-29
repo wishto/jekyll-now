@@ -9,4 +9,4 @@ image: "images/tetris.png"
 Tetris written in C++ displayed in the console window. The game features a menu system and double buffering to hide the flicker when clearing the console window.
 
 Gameplay:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/ttDvk31IZRg" frameborder="0" allowfullscreen></iframe>
+{% youtube ttDvk31IZRg %}

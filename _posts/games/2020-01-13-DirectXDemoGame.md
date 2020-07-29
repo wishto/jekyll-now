@@ -10,4 +10,4 @@ A simple game where you have to avoid the enemy that chases you that gradually i
 Created using DirectX11 in C++.
 
 Video:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/YhiHCGv_LIY" frameborder="0" allowfullscreen></iframe>
+{% youtube YhiHCGv_LIY %}

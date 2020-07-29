@@ -10,4 +10,4 @@ A first person horror game developed as a team of 4 consisting of Seb Mol, Ellio
 The game is published on itch.io [here](https://e-std.itch.io/black-thorn-manor).
 
 Gameplay:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/yE-Ga_KhzfE" frameborder="0" allowfullscreen></iframe>
+{% youtube yE-Ga_KhzfE %}

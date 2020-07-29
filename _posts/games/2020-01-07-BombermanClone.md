@@ -10,4 +10,4 @@ A clone of the game Bomberman created with SDL2 in C++ featuring 2 levels with s
 Assets were not created by me.
 
 Gameplay:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/_srVt6rllbI" frameborder="0" allowfullscreen></iframe>
+{% youtube _srVt6rllbI %}
