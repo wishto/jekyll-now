@@ -11,4 +11,4 @@ It includes tools to create items and an inventory, dialogue, loot tables, chara
 It can be found on itch.io [here](https://tobywishart.itch.io/jrpg-toolkit)
 
 Demonstration:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/efRusr1Pybc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>
+<iframe width="720" height="480" src="https://www.youtube.com/embed/efRusr1Pybc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>

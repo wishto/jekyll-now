@@ -12,4 +12,4 @@ The game was created by Lazy Tank Studios a team of 20 students including myself
 Tales of Orelia can be found on itch.io [here](https://lazytankstudios.itch.io/tales-of-orelia)
 
 Trailer:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/PbfIHpUwrd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>
+<iframe width="720" height="480" src="https://www.youtube.com/embed/PbfIHpUwrd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>

@@ -10,4 +10,4 @@ A puzzle game where you must leave your power to take a power. The game was crea
 Published on itch.io [here](https://e-std.itch.io/taketh-or-leaveth)
 
 Gameplay:
-<iframe width="720" height="480" src="http://www.youtube.com/embed/9Jy8AXTm_Ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>
+<iframe width="720" height="480" src="https://www.youtube.com/embed/9Jy8AXTm_Ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>
