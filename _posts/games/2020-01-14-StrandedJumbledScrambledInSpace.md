@@ -12,4 +12,4 @@ This game was developed in Unity using C# for the GMTK Game Jam 2020 which had t
 It can be found on itch.io [here](https://tobywishart.itch.io/sjs-in-space)
 
 Gameplay:
-{% youtube LOySJFEL6Hw %}
+<iframe width="720" height="480" src="http://www.youtube.com/embed/LOySJFEL6Hw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>

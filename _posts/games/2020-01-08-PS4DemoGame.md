@@ -10,4 +10,4 @@ A simple maze game rendered in 3D where you can collect rings created on PS4 dev
 The aim was to demonstrate various techniques running on PS4, DS4 input, OBJ model loading, collision, sound, 2D animations and text rendering.
 
 Gameplay:
-{% youtube 4rX2gkdhk_Q %}
+<iframe width="720" height="480" src="http://www.youtube.com/embed/4rX2gkdhk_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>

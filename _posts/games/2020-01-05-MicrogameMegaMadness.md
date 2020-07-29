@@ -14,4 +14,4 @@ Programming and some assets created by myself, the rest are royalty free. Develo
 Download Android APK [here](insert link)
 
 Gameplay:
-{% youtube rW7PLEpA9r0 %}
+<iframe width="720" height="480" src="http://www.youtube.com/embed/rW7PLEpA9r0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp</iframe>
